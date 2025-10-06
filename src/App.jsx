@@ -5,13 +5,15 @@ import "./App.css";
 import BMICalculator from "./compoentent/bmi";
 import Calculator from "./compoentent/calculter";
 import ExpenseTracker from "./compoentent/Expenesstracer";
+import WeatherApp from "./compoentent/Weather";
 
 function App() {
   return (
     <>
       {/* <BMICalculator /> */}
       {/* <Calculator /> */}
-      <ExpenseTracker />
+      {/* <ExpenseTracker /> */}
+      <WeatherApp />
     </>
   );
 }
