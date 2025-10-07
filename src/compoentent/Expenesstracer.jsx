@@ -69,7 +69,7 @@ export default function ExpenseTracker() {
 
   const total = filteredExpenses.reduce((sum, exp) => sum + exp.amount, 0);
 
-  const categories = ["Food", "Travel", "Shopping", "Bills", "Other"];
+  const categories = ["Food", "Travel", "Shopping", "study", "Other"];
 
   // Pie chart data
   const pieData = categories

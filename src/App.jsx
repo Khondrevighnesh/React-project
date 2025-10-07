@@ -5,7 +5,8 @@ import "./App.css";
 import BMICalculator from "./compoentent/bmi";
 import Calculator from "./compoentent/calculter";
 import ExpenseTracker from "./compoentent/Expenesstracer";
-import WeatherApp from "./compoentent/Weather";
+import TodoApp from "./compoentent/Todolist";
+// import WeatherApp from "./compoentent/Weather";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       {/* <BMICalculator /> */}
       {/* <Calculator /> */}
       {/* <ExpenseTracker /> */}
-      <WeatherApp />
+      <TodoApp />
     </>
   );
 }
